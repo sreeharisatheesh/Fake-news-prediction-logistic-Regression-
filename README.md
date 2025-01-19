@@ -1,10 +1,11 @@
 
-#Fake News Detection
+# Fake News Detection
+
 This project implements a Fake News Detection system using machine learning in Python. It utilizes the Kaggle Fake News Dataset to classify news articles as either real or fake based on their content. The system employs a Logistic Regression model and various preprocessing techniques to achieve high accuracy.
 
 Dataset
 Source: Kaggle Fake News Dataset
-Files Used: train.csv
+Files Used: [train.csv](https://www.kaggle.com/c/fake-news/data?select=train.csv)
 
 
 
@@ -30,6 +31,9 @@ Used Logistic Regression to classify news articles.
 Evaluated the model using accuracy score to measure performance.
 4. Prediction
 The model predicts whether a given article is real or fake based on the trained Logistic Regression classifier.
+
+
+
 Dependencies
 The project requires the following Python libraries:
 
@@ -37,3 +41,11 @@ pandas: For data manipulation.
 numpy: For numerical operations.
 nltk: For text preprocessing, including stopwords and stemming.
 scikit-learn: For machine learning tasks, including feature extraction, model building, and evaluation.
+
+
+
+Install the dependencies using:
+
+```bash
+pip install pandas numpy nltk scikit-learn
+```
